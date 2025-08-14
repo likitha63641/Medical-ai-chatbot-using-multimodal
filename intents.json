@@ -1,0 +1,538 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hi there, what can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting <br>Have a nice day"
+            ]
+        },
+        {
+            "tag": "work",
+            "patterns": [
+                "how do you work",
+                "what algorithm",
+                "algorithm use",
+                "how your algorithm works"
+            ],
+            "responses": [
+                "Sorry I can't say that !!! If you realy want to know you can contact us"
+            ]
+        },
+        {
+            "tag": "who",
+            "patterns": [
+                "who are you",
+                "who you",
+                "tell about  you",
+                "describe",
+                "you",
+                "what you",
+                "can do",
+                "what you do"
+            ],
+            "responses": [
+                "I am Symptom checker, you can enter your the symptoms you have and you can det a list of potential conditions that you may have !!"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help! Any time you need ! "
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Give me a joke",
+                "Share a joke"
+            ],
+            "responses": [
+                "Why did the doctor carry a red pen? In case they needed to draw blood!"
+            ]
+        },
+        
+        {
+      "tag": "Eczema_symptoms",
+      "patterns": [
+        "What are the symptoms of eczema?",
+        "How do I know if I have eczema?",
+        "Does eczema cause itching?",
+        "What does eczema look like?",
+        "eczema flare-up symptoms",
+        "why is my skin itchy and red?",
+        "patchy dry spots on my body",
+        "signs of eczema on hands and feet"
+      ],
+      "responses": [
+        "Symptoms of Eczema include intense itching (worse at night), red or brownish-gray patches on skin (hands, feet, neck, wrists, upper chest), small fluid-filled bumps, and thickened/scaly skin from scratching."
+      ]
+    },
+    {
+      "tag": "Eczema_precautions",
+      "patterns": [
+        "How can I prevent eczema?",
+        "Daily care for eczema?",
+        "What should I avoid if I have eczema?",
+        "Tips to reduce eczema flare-ups",
+        "eczema prevention tips",
+        "How to manage eczema naturally?",
+        "Can I stop eczema from spreading?"
+      ],
+      "responses": [
+        "To manage eczema, avoid harsh soaps and fragrances, wear soft cotton clothes, use a humidifier, take short warm showers, reduce stress, and avoid allergens."
+      ]
+    },
+    {
+      "tag": "Eczema_treatment",
+      "patterns": [
+        "How to treat eczema?",
+        "Best medicine for eczema?",
+        "Can eczema be cured?",
+        "What cream helps eczema?",
+        "eczema treatment options",
+        "Home remedies for eczema",
+        "How do doctors treat eczema?"
+      ],
+      "responses": [
+        "Treatment for Eczema includes frequent moisturization, prescription topical corticosteroids, and for severe cases, oral antihistamines, immunosuppressants, or biologics like dupilumab (Dupixent)."
+      ]
+    },
+
+    {
+      "tag": "Warts_symptoms",
+      "patterns": [
+        "What are the symptoms of warts?",
+        "How to identify molluscum?",
+        "What do viral warts look like?",
+        "How can I tell if I have warts?",
+        "Symptoms of molluscum infection",
+        "Small bumps on my skin",
+        "Are warts contagious?",
+        "wart-like growths on my hands"
+      ],
+      "responses": [
+        "Warts are small, rough bumps (often on hands and feet), while Molluscum presents as dome-shaped, flesh-colored, dimpled lesions. Both are usually painless but contagious."
+      ]
+    },
+    {
+      "tag": "Warts_precautions",
+      "patterns": [
+        "How to prevent spreading warts?",
+        "Should I cover warts?",
+        "Precautions for molluscum?",
+        "Can I avoid getting warts?",
+        "How to stop molluscum spreading?",
+        "Is it safe to scratch warts?",
+        "Do I need to sanitize items with warts?"
+      ],
+      "responses": [
+        "Avoid sharing towels, razors, or shoes, keep lesions clean and covered, avoid scratching, and practice good hand hygiene to prevent spreading warts or molluscum."
+      ]
+    },
+    {
+      "tag": "Warts_treatment",
+      "patterns": [
+        "How can I treat warts?",
+        "Best treatment for viral infections?",
+        "Do warts go away naturally?",
+        "What medicine works for molluscum?",
+        "How to remove warts?",
+        "Cryotherapy for warts?",
+        "Do I need surgery for molluscum?"
+      ],
+      "responses": [
+        "Treatments include topical salicylic acid, cryotherapy (freezing), curettage (scraping), or laser removal. Molluscum may resolve in 6–12 months, but severe cases may need topical antivirals or removal."
+      ]
+    },
+
+    {
+      "tag": "Melanoma_symptoms",
+      "patterns": [
+        "What are the symptoms of melanoma?",
+        "How do I know if a mole is cancer?",
+        "Signs of melanoma?",
+        "What does skin cancer look like?",
+        "ABCDE rule for melanoma?",
+        "When is a mole dangerous?",
+        "Does melanoma itch or bleed?",
+        "Changing mole signs"
+      ],
+      "responses": [
+        "Melanoma signs include a new or changing mole that is asymmetric, has irregular borders, multiple colors, diameter >6mm, or evolving in size/shape (ABCDE). It may bleed, itch, or ulcerate."
+      ]
+    },
+    {
+      "tag": "Melanoma_precautions",
+      "patterns": [
+        "How to prevent melanoma?",
+        "Should I avoid sun for melanoma?",
+        "Precautions for skin cancer?",
+        "How to protect my skin from melanoma?",
+        "Can sunscreen prevent melanoma?",
+        "Self-check for melanoma?",
+        "How to reduce risk of melanoma?"
+      ],
+      "responses": [
+        "Prevent melanoma by avoiding sunburns, wearing SPF 30+ sunscreen daily, using protective clothing, avoiding tanning beds, and doing monthly skin self-checks."
+      ]
+    },
+    {
+      "tag": "Melanoma_treatment",
+      "patterns": [
+        "How can I treat melanoma?",
+        "Can melanoma be cured?",
+        "What treatment is used for melanoma?",
+        "Is surgery needed for melanoma?",
+        "Medicines for advanced melanoma",
+        "Immunotherapy for skin cancer?",
+        "Radiation for melanoma?"
+      ],
+      "responses": [
+        "Melanoma is usually treated by surgical excision. Advanced cases may need lymph node biopsy, immunotherapy (checkpoint inhibitors), targeted drugs (BRAF inhibitors), or radiation."
+      ]
+    },
+
+    {
+      "tag": "AtopicDermatitis_symptoms",
+      "patterns": [
+        "What are the symptoms of atopic dermatitis?",
+        "How do I know if I have dermatitis?",
+        "Does dermatitis cause rashes?",
+        "Signs of atopic dermatitis?",
+        "Dry itchy patches on my skin",
+        "Rashes on cheeks and elbows",
+        "Skin flares that come and go",
+        "Does dermatitis thicken skin?"
+      ],
+      "responses": [
+        "Atopic Dermatitis causes dry, scaly, itchy patches, often on cheeks, elbows, knees, and hands. Chronic scratching can lead to lichenification (thickened skin)."
+      ]
+    },
+    {
+      "tag": "AtopicDermatitis_precautions",
+      "patterns": [
+        "How to prevent atopic dermatitis?",
+        "Precautions for dermatitis?",
+        "What triggers dermatitis?",
+        "Daily care tips for atopic dermatitis?",
+        "Should I avoid hot showers for dermatitis?",
+        "How to manage dermatitis naturally?",
+        "Can stress trigger dermatitis?"
+      ],
+      "responses": [
+        "Keep skin moisturized, avoid allergens, overheating, and rough fabrics. Use non-soap cleansers, take lukewarm baths, and reduce stress to prevent flare-ups."
+      ]
+    },
+    {
+      "tag": "AtopicDermatitis_treatment",
+      "patterns": [
+        "How can I treat dermatitis?",
+        "Best cream for atopic dermatitis?",
+        "Can dermatitis be cured?",
+        "What helps with atopic dermatitis?",
+        "Medicines for severe dermatitis",
+        "Home care for dermatitis",
+        "Do biologics help dermatitis?"
+      ],
+      "responses": [
+        "Treatment includes daily emollients, topical corticosteroids or calcineurin inhibitors, antihistamines, and for severe cases, systemic drugs or biologics like dupilumab."
+      ]
+    },
+
+    {
+      "tag": "BasalCellCarcinoma_symptoms",
+      "patterns": [
+        "What are the symptoms of basal cell carcinoma?",
+        "How do I know if I have basal cell cancer?",
+        "What does basal cell carcinoma look like?",
+        "Signs of skin cancer?",
+        "Shiny bump on my face",
+        "Is a waxy bump dangerous?",
+        "Slow growing skin spot"
+      ],
+      "responses": [
+        "Basal Cell Carcinoma often appears as a shiny, pearly, or waxy bump (face, ears, neck) or as a flat scar-like lesion. It rarely spreads but can damage local tissue."
+      ]
+    },
+    {
+      "tag": "BasalCellCarcinoma_precautions",
+      "patterns": [
+        "How to prevent basal cell cancer?",
+        "Precautions for basal cell carcinoma?",
+        "How to protect skin from cancer?",
+        "Should I avoid sun exposure?",
+        "Does sunscreen reduce basal cell cancer risk?",
+        "Do hats help prevent skin cancer?"
+      ],
+      "responses": [
+        "Avoid prolonged sun exposure, use SPF 30+ sunscreen daily, wear protective clothing and hats, and get regular skin checkups if at risk."
+      ]
+    },
+    {
+      "tag": "BasalCellCarcinoma_treatment",
+      "patterns": [
+        "How can I treat basal cell carcinoma?",
+        "What treatment is used for basal cell cancer?",
+        "Can basal cell cancer be removed?",
+        "Is surgery needed for basal cell carcinoma?",
+        "Topical treatment for basal cell cancer?",
+        "Radiation for basal cell carcinoma?"
+      ],
+      "responses": [
+        "Treatment includes surgical excision (Mohs surgery is standard), curettage and electrodessication, cryotherapy, and in some cases, topical or radiation therapy."
+      ]
+    },
+
+    {
+      "tag": "Nevi_symptoms",
+      "patterns": [
+        "What are the symptoms of melanocytic nevi?",
+        "Are moles dangerous?",
+        "How to identify a mole?",
+        "When should I worry about a mole?",
+        "Flat or raised brown spot",
+        "Stable mole on my skin",
+        "What does a benign mole look like?"
+      ],
+      "responses": [
+        "Melanocytic Nevi (moles) are small, dark, well-defined spots, either flat or raised, usually stable in size and harmless."
+      ]
+    },
+    {
+      "tag": "Nevi_precautions",
+      "patterns": [
+        "How to prevent mole changes?",
+        "Should I avoid sun for moles?",
+        "How to monitor moles?",
+        "When should I see a doctor for a mole?",
+        "Do moles turn cancerous?",
+        "ABCDE rule for moles?"
+      ],
+      "responses": [
+        "Monitor moles with the ABCDE rule, avoid excessive sun exposure, and report changes in size, color, or shape to a dermatologist."
+      ]
+    },
+    {
+      "tag": "Nevi_treatment",
+      "patterns": [
+        "How can I remove moles?",
+        "Treatment for melanocytic nevi?",
+        "Do moles need surgery?",
+        "Can moles be left alone?",
+        "Are mole removal creams safe?",
+        "When should a mole be removed?"
+      ],
+      "responses": [
+        "Most moles don’t need treatment unless cosmetically undesirable or suspicious. Removal can be done surgically or by dermatologist techniques."
+      ]
+    },
+
+    {
+      "tag": "Keratosis_symptoms",
+      "patterns": [
+        "What are the symptoms of benign keratosis?",
+        "How do I know if I have keratosis?",
+        "Are keratosis spots dangerous?",
+        "What does seborrheic keratosis look like?",
+        "Brown stuck-on spots on my back",
+        "Are these wart-like growths benign?",
+        "Keratosis in older adults"
+      ],
+      "responses": [
+        "Seborrheic keratoses are waxy, wart-like growths (tan, brown, or black) that look ‘stuck-on’ and are common in older adults."
+      ]
+    },
+    {
+      "tag": "Keratosis_precautions",
+      "patterns": [
+        "How to prevent keratosis?",
+        "Are there precautions for keratosis?",
+        "Should I protect my skin from sun?",
+        "How to monitor keratosis growths?",
+        "Do keratosis turn cancerous?",
+        "Does sun cause seborrheic keratoses?"
+      ],
+      "responses": [
+        "Seborrheic keratoses are benign. Protect skin from excessive sun, and monitor for changes to rule out malignancy."
+      ]
+    },
+    {
+      "tag": "Keratosis_treatment",
+      "patterns": [
+        "How can I treat keratosis?",
+        "Should I remove seborrheic keratoses?",
+        "Best way to remove keratosis?",
+        "Can keratosis be left alone?",
+        "Cryotherapy for seborrheic keratoses?",
+        "Does laser remove keratosis?"
+      ],
+      "responses": [
+        "Treatment is usually unnecessary unless irritated or for cosmetic reasons. Options include cryotherapy, curettage, electrosurgery, or laser."
+      ]
+    },
+
+    {
+      "tag": "Psoriasis_symptoms",
+      "patterns": [
+        "What are the symptoms of psoriasis?",
+        "What does lichen planus look like?",
+        "Signs of psoriasis?",
+        "Does psoriasis cause scaling?",
+        "Red scaly patches on elbows",
+        "Purple itchy bumps on my wrists",
+        "Are psoriasis patches painful?"
+      ],
+      "responses": [
+        "Psoriasis presents as red, raised patches with silvery scales (often elbows, knees, scalp). Lichen Planus causes flat-topped, purple, itchy bumps on wrists, ankles, or mucous membranes."
+      ]
+    },
+    {
+      "tag": "Psoriasis_precautions",
+      "patterns": [
+        "How to prevent psoriasis flare-ups?",
+        "What triggers lichen planus?",
+        "Precautions for psoriasis?",
+        "Should I avoid stress for psoriasis?",
+        "Can alcohol worsen psoriasis?",
+        "Do infections trigger psoriasis?"
+      ],
+      "responses": [
+        "Avoid skin trauma, manage stress, keep skin moisturized, limit alcohol, avoid smoking, and control triggers like infections and medications."
+      ]
+    },
+    {
+      "tag": "Psoriasis_treatment",
+      "patterns": [
+        "How can I treat psoriasis?",
+        "Can lichen planus be cured?",
+        "What cream is best for psoriasis?",
+        "Best medicine for lichen planus?",
+        "Phototherapy for psoriasis?",
+        "Are biologics effective for psoriasis?"
+      ],
+      "responses": [
+        "Treatment includes topical corticosteroids, vitamin D analogs, calcineurin inhibitors, UVB phototherapy, and systemic drugs like methotrexate or biologics."
+      ]
+    },
+
+    {
+      "tag": "SeborrheicTumor_symptoms",
+      "patterns": [
+        "What are the symptoms of seborrheic keratoses?",
+        "Are seborrheic keratoses dangerous?",
+        "How to identify benign tumors on skin?",
+        "What do seborrheic keratoses look like?",
+        "Brown or black stuck-on growths",
+        "Are these aging-related skin spots?"
+      ],
+      "responses": [
+        "Seborrheic Keratoses are non-cancerous growths that appear waxy, stuck-on, and wart-like, commonly on the chest, back, face, or scalp in aging adults."
+      ]
+    },
+    {
+      "tag": "SeborrheicTumor_precautions",
+      "patterns": [
+        "How to prevent seborrheic tumors?",
+        "Do I need to monitor seborrheic keratoses?",
+        "Are there precautions for benign tumors?",
+        "How to protect skin from growths?",
+        "Should I see a doctor for seborrheic keratoses?"
+      ],
+      "responses": [
+        "Generally no special precautions are needed. Monitor for changes and consult a dermatologist if growths change or become irritated."
+      ]
+    },
+    {
+      "tag": "SeborrheicTumor_treatment",
+      "patterns": [
+        "How can I treat seborrheic keratoses?",
+        "Should seborrheic tumors be removed?",
+        "What’s the best removal method?",
+        "Can seborrheic keratoses heal on their own?",
+        "Cryotherapy or electrosurgery for removal?"
+      ],
+      "responses": [
+        "Treatment is not required unless for cosmetic or comfort reasons. Removal can be done by cryotherapy, curettage, or electrosurgery."
+      ]
+    },
+
+    {
+      "tag": "FungalInfection_symptoms",
+      "patterns": [
+        "What are the symptoms of ringworm?",
+        "What does tinea infection look like?",
+        "How do I know if I have a fungal infection?",
+        "Does candidiasis cause rashes?",
+        "Itchy ring-shaped patches",
+        "Red moist rash in folds",
+        "Fungal infection on my feet"
+      ],
+      "responses": [
+        "Tinea causes ring-shaped, red, itchy rashes with central clearing, while Candidiasis appears as red, moist patches in skin folds (groin, armpits, under breasts)."
+      ]
+    },
+    {
+      "tag": "FungalInfection_precautions",
+      "patterns": [
+        "How to prevent fungal infections?",
+        "Should I avoid moisture for ringworm?",
+        "Precautions for candidiasis?",
+        "How to stop fungal infections from spreading?",
+        "Do I need antifungal powder for shoes?",
+        "How to keep skin dry?"
+      ],
+      "responses": [
+        "Keep skin clean and dry, avoid tight or damp clothing, don’t share towels or shoes, and use antifungal powders in sweaty areas to prevent fungal spread."
+      ]
+    },
+    {
+      "tag": "FungalInfection_treatment",
+      "patterns": [
+        "How can I treat fungal infections?",
+        "Best cream for ringworm?",
+        "Can fungal infections be cured?",
+        "What medicine is used for candidiasis?",
+        "Oral antifungals for scalp infections?",
+        "Home remedies for fungal rashes?"
+      ],
+      "responses": [
+        "Treatment involves topical antifungal creams (clotrimazole, terbinafine) or oral antifungals (fluconazole, itraconazole) for widespread, nail, or scalp infections."
+      ]
+    },
+    {
+  "tag": "fallback",
+  "patterns": [],
+  "responses": [
+    "I didn’t understand that, can you rephrase?",
+    "Sorry, your question seems out of syllabus.",
+    "Please ask about symptoms, treatment, or precautions for the listed diseases."
+  ]
+}
+    ]
+}
